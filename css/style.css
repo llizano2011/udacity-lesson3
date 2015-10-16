@@ -1,0 +1,90 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+
+}
+
+h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+hr {
+	background: #747704;
+    background-image: linear-gradient(to right, #ccc, #747704, #ccc);
+	border: 0;
+    height: 1px;
+}
+
+button, .btn {
+	background: none;
+	border: none;
+	color: #cd4b4c;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+button .fa {
+	font-size: 2em;
+}
+
+button:hover .fa {
+	color:#b23239;
+}
+
+.btn:hover {
+	color: #b23239;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.modal img {
+	margin: 0 auto;
+}
+
+.modal p {
+	margin: 1em 0;
+}
+
+.full-circle {
+	background-color: #cd4b4c;
+ 	height: 5em;
+ 	-moz-border-radius:50%;
+ 	-webkit-border-radius: 550%;
+ 	border-radius: 50%;
+ 	margin-top: 1em;
+ 	padding-top: 1em;
+ 	text-align: center;
+ 	width: 5em;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-supper {
+	font-size: 2.5em;
+}
+.title-logo {
+	color: #fff;
+	font-family: 'Lobster Two', cursive;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.title-supper {
+		font-size: 3em;
+	}
+
+ }
