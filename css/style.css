@@ -39,7 +39,7 @@ button:hover .fa {
 	color: #b23239;
 }
 
-.btn:focus {
+.btn:focus, button:focus {
   outline: none;
 }
 
