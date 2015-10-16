@@ -81,6 +81,28 @@ button:hover .fa {
 	font-size: 2em;
 }
 
+/*image effect on hover*/
+
+figure {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+/* zoom in img */
+.hover-zoom figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-zoom figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.title-supper {
